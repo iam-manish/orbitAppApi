@@ -28,7 +28,7 @@ export default function handler(req, res) {
                             {
                                 message:{
                                     name:results[0].get("name"),
-                                    password:results[0].get("password"),
+                                    password:req.body.password,
                                     phoneNumber:results[0].get("phoneNumber")
                                 }
                             }
