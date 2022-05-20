@@ -45,6 +45,6 @@ export default function handler(req, res) {
             res.status(405).json({ message: "Method Not Allowed" })
         }
     }else{
-        res.status(401).json({ message: req.body  })
+        res.status(401).json({ message:"Unauthorized Access"  })
     }
 }
