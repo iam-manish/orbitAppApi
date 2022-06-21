@@ -7,9 +7,9 @@ export default function handler(req, res) {
         if(req.method == "POST"){
             const handle = async () => {
                 await Moralis.start({
-                    serverUrl: "https://waqznab5ifqs.usemoralis.com:2053/server",
-                    appId: "d5nXdIv1a6Ac5hztm9jF5u9utZCmovPBwcA1Ayua",
-                    masterKey: "924jSeOxHpqVBB9VocfXpEceEnWTH06HJmBuJhGQ",
+                    serverUrl: "https://r3assy3im10u.usemoralis.com:2053/server",
+                    appId: "1SpCaUXfimYLGqob0EPMfRJjJWbov4wBwHOXyrtQ",
+                    masterKey: "hqU12d93U5hYvdn5RR89r2XvYJQ6TAUW0H9UiSSN",
                 });
 
                 const OrbitUserInfo = Moralis.Object.extend("OrbitUserInfo");
